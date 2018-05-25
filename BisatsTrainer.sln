@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BisatsTrainer", "BisatsTrainer\BisatsTrainer.csproj", "{FE20B36E-646D-4ABE-A20C-A69E19D27CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE20B36E-646D-4ABE-A20C-A69E19D27CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE20B36E-646D-4ABE-A20C-A69E19D27CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE20B36E-646D-4ABE-A20C-A69E19D27CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE20B36E-646D-4ABE-A20C-A69E19D27CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F903E35-33AB-4CC5-8728-103DEADD07C7}
+	EndGlobalSection
+EndGlobal

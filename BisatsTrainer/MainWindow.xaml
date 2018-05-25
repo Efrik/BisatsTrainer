@@ -1,0 +1,17 @@
+﻿<Window x:Class="BisatsTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BisatsTrainer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="462.5" Background="#FFD48C63">
+    <Grid Margin="0,0,2,0">
+        <Label x:Name="bisatsTrainer" Content="Bisats Trainer" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="514" FontFamily="MV Boli" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="uploadFile" Content="Upload a file" HorizontalAlignment="Left" Height="39" Margin="23,348,0,0" VerticalAlignment="Top" Width="196" Click="uploadFile_Click"/>
+        <Button x:Name="startTraining" Content="Start Training" HorizontalAlignment="Left" Height="39" Margin="224,348,0,0" VerticalAlignment="Top" Width="203" Click="startTraining_Click"/>
+        <TextBlock x:Name="rules" HorizontalAlignment="Left" Height="61" Margin="23,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="404"><Run Text="This program will take a text and randomiza the words in every sentence, so that the user can train to arrange the correct order of the words in a sentence."/></TextBlock>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="195" Margin="23,140,0,0" TextWrapping="Wrap" Text="Write your sentences here or in a file D:\text.txt" VerticalAlignment="Top" Width="404" Background="#FFECC6B0" TextChanged="textBox_TextChanged"/>
+
+    </Grid>
+</Window>
